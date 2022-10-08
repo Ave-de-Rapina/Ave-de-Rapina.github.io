@@ -419,7 +419,7 @@ h7{
 
 @media(max-width: 768px) {
     #banner-titulo{
-
+        background: gold;
     }
 
 }
