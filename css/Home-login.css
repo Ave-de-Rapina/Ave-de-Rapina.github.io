@@ -1,0 +1,64 @@
+.main-login {
+    display: flex;
+    justify-content: center;  
+    background: #E5E5E5;
+    height: 445px;
+}
+
+.form-login {
+    position: absolute;
+    padding-top: 92px;
+}
+
+#iniciar-sessao {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway-bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 25px;
+    color: #464646;
+}
+
+#email, #senha {
+    display: flex;
+   margin-bottom: 25px;
+    background: #FFFFFF;
+    height: 63.13px;
+    width: 423px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #C8C8C8;
+    border-width: 1px;
+
+}
+
+input::placeholder {
+    font-family: 'Raleway-Light';
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A2A2A2;;
+   }
+
+#Entrar {
+    display: block;
+    margin: 0 auto;
+    background: #2A7AE4;
+    color: #FFFFFF;    
+    width: 423px;
+    height: 62px;
+    left: 508px;
+    top: 435px;
+    border: none;
+
+    font-family: 'Raleway-Light';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}

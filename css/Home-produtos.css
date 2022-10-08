@@ -1,0 +1,37 @@
+.main-produtos {
+    padding-top: 64px;
+    height: auto;
+    width: auto;
+    background: #E5E5E5;
+    padding-right: 152px;
+    padding-left: 152px;
+}
+
+.cabecario-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+#titulo-produtos {
+    font-family: 'Raleway-medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+#botao-adicionar {
+    width: 164px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+}
