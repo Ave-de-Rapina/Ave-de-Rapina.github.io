@@ -1,13 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+
 header {
     background: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     width: auto;
     height: 115px;
     justify-content: space-between;
 }
+
 
 #caixa-esquerda {
     display: flex;
@@ -98,15 +107,13 @@ header {
 .banner {
     background: url("img/banner-image.png");
     height: 352px;
-    width: 100%;
+    width: 0 auto;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: end;
     padding-left: 152px;
     padding-right: 152px;
-
-
 }
 
 @font-face {
@@ -422,4 +429,8 @@ h7{
         background: gold;
     }
 
+    .caixa-contato{
+        display: flex;
+        flex-direction: column;
+    }
 }
