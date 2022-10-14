@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -10,40 +12,34 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
-    margin: 0;
     width: auto;
-    height: 115px;
+    height: 7.188rem;
     justify-content: space-between;
 }
-
 
 #caixa-esquerda {
     display: flex;
     align-items: center;
-
 }
 
 .logo {
-    margin-left: 152px;
-    margin-right: 32px;
-    width: 176px;
-    height: 50px;
+    margin-left: 9.5rem;
+    margin-right: 2rem;
+    width: 11rem;
+    height: 3.125rem;
 }
 
 .search-container{
     width: auto;
-    height: 40px;
+    height: 2.5rem;
     display: block;
     margin: 0 auto;
-    
   }
   
   #txtBusca{
-   
     float:left;
-    color:transparent;
-    padding-left:5px;
+    color:transparent; 
+    padding-left:0.313rem;
 
     border:none;
     height:auto;
@@ -53,12 +49,12 @@ header {
   input#search-bar{
     margin: 0 auto;
     width: 100%;
-    height: 40px;
-    padding: 0 20px;
+    height: 2.5rem;
+    padding: 0 1.25rem;
     font-size: 1rem;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background: #F5F5F5;
    }
 
@@ -69,12 +65,12 @@ header {
   
 
    input::placeholder {
-    padding-top: 18.5px;
-    padding-left: 12px;
+    padding-top: 1.156rem;
+    padding-left: 0.75rem;
     font-family: 'Raleway-Light';
     font-weight: 200;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 1rem;
     color: #A2A2A2;;
    }
   
@@ -83,16 +79,16 @@ header {
     float: right;
     width: auto;
     height: auto;
-    top: -29px;
-    right: -20px;
+    top: -1.813rem;
+    right: -1.813rem;
   }
   
 .botao-login{
-    margin-right: 152px;
+    margin-right: 9.5rem;
     box-sizing: border-box;
-    padding: 16px;
-    width: 182px;
-    height: 51px;
+    padding: 1rem;
+    width: 11.375rem;
+    height: 3.188rem;
     /* Azul/100% */
     border: 1px solid #2A7AE4;
     color:#2A7AE4;
@@ -100,20 +96,22 @@ header {
     font-family: 'Raleway-Light';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
 }
 
 .banner {
     background: url("img/banner-image.png");
-    height: 352px;
+    background-position: center;
+    background-size: cover;
+    height: 22rem;
     width: 0 auto;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     justify-content: end;
-    padding-left: 152px;
-    padding-right: 152px;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
 }
 
 @font-face {
@@ -122,12 +120,12 @@ header {
   }
 
 #banner-titulo{
-   margin-bottom: 16px; 
+   margin-bottom: 1rem; 
    font-family: 'Raleway-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
+    font-size: 3.25rem;
+    line-height: 3.813rem;
    color: #FFFFFF;
 }
 
@@ -135,30 +133,30 @@ header {
     font-family: 'Raleway-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
     color: #FFFFFF;
-    margin-bottom: 16px ;
+    margin-bottom: 1rem ;
 }
 
 #banner-botao {
-    width: 130px;
-    height: 51px;
+    width: 8.125rem;
+    height: 3.188rem;
     background: #2A7AE4;
     border: none;
     color: #FFFFFF;
     font-family: 'Raleway-Light';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 32px;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    margin-bottom: 2rem;
 }
 
 main {
-    padding-top: 64px;
-    padding-right: 152px;
-    padding-left: 152px;
+    padding-top: 4rem;
+    padding-right: 9.5rem;
+    padding-left: 9.5rem;
     height: auto;
     width: auto;
     background: #E5E5E5;
@@ -171,12 +169,12 @@ main {
 }
 
 h3 {
-    bottom: 16px;
+    bottom: 1rem;
     font-family: 'Raleway-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 2rem;
+    line-height: 2.375rem;
     color: #464646;
 }
 
@@ -188,8 +186,8 @@ h3 {
 
 .caixa-seta {
 
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     background: url("img/seta-direita.png");;
     align-items: center;
     text-align: center;
@@ -200,42 +198,42 @@ h3 {
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #2A7AE4;
     background: #E5E5E5
 }
 
 .seta {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     color: #2A7AE4;
     background: black;
-    padding-left: 12px;
+    padding-left: 0.75rem;
 }
 
 .caixa-produtos-stars-wars-margem {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 64px;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
     flex-wrap: wrap;
 }
 
 img {
-    width: 176px;
-    height: 174px;
-    margin-bottom: 8px;
+    width: 11rem;
+    height: 10.875rem;
+    margin-bottom: 0.5rem;
 }
 
 p1 {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 0.875rem;
+    line-height: 0.5rem;
     width: auto;
     height: auto;
     color: #464646;
@@ -245,12 +243,12 @@ p2 {
     width: auto;
     height: auto;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
     font-family: 'Raleway-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #464646;
 }
 
@@ -261,8 +259,8 @@ p2 {
     font-family: 'Raleway-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #2A7AE4;
     border: none;
     padding: 0;
@@ -272,20 +270,20 @@ p2 {
 .caixa-contato{
     display: flex;
     justify-content: space-between;
-    padding-top:64px ;
-    padding-bottom: 70px;
+    padding-top: 4rem;
+    padding-bottom: 4.375rem;
     background: #EAF2FD;
 }
 
 .saiba-mais {
     border: none;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     display: block;
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188;
     color: #464646;
     background: #EAF2FD;
 }
@@ -293,7 +291,7 @@ p2 {
 .caixa-formulario {
     display: flex;
     flex-direction: column;
-    margin-right: 152px;
+    margin-right: 9.5rem;
 
 }
 
@@ -301,8 +299,8 @@ p2 {
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #464646;
  
 }
@@ -310,21 +308,25 @@ p2 {
 .caixa-nome{
     display: flex;
     flex-direction: column;
-    margin-top: 8px;
-    height: 55px;
-    width: 100%;
+    margin-top: 0.5rem;
+    height: 3.438rem;
+    width: 100% auto;
+    margin-right: 0;
+    padding-right: 0;
+
 }
 
 .nome {
-    padding-top: 8px;
-    padding-bottom: 7px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.438rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 100%;
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
     color: #A2A2A2;
     background: #FFFFFF;
     
@@ -335,58 +337,60 @@ p2 {
     border-left: none;
     border-right: none;
     border-color: #C8C8C8;
-    border-width: 1px;
-    padding-top: 8px;
-    padding-bottom: 7px;
-    padding-left: 12px;
-    padding-right: 12px;
-    height: 20px;
+    border-width: 0.063;
+    padding-top: 0.5rem;
+    padding-bottom: 0.438rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    height: 1.25rem;
+    width: 100%;
     border: none;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     background: #FFFFFF;
+    color: #464646;
 }
 
 .mensagem {
-    margin-top: 24px;
-    height: 82px;
-    width: 560px;
+    margin-top: 1.5rem;
+    height: 5.125rem;
+    width: 100%;
     border: none;
     background: #FFFFFF;
     border-color: #C8C8C8;
-    border-width: 1px;
+    border-width: 0.063;
 }
 
 textarea::placeholder {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;  
+    font-size: 1rem;
+    line-height: 1.25rem;  
     color: #A2A2A2;
 
 }
 
 .enviar-mensagem {
-    margin-top: 8px;
-    width: 165px;
-    height: 51px;
+    margin-top: 0.5rem;
+    width: 10.313rem;
+    height: 3.188rem;
     justify-content: center;
     align-items: center;
-    padding: 16px;
-    gap: 10px;
-    font-family: 'Raleway-Light';
+    padding: 1rem;
+    gap: 0.625;
+    font-family: 'Raleway-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     background: #2A7AE4;
     color: #FFFFFF;
     border: none;
@@ -395,7 +399,7 @@ textarea::placeholder {
 .desenvolvedor {
     display: flex;
     flex-direction: column;
-    height: 102px;
+    height: 6.375rem;
     background: #FFFFFF;  
     justify-content: center;
     align-items: center;
@@ -404,8 +408,8 @@ textarea::placeholder {
 h6{
     font-family: 'Raleway-Medium';
     font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #464646;
 }
 
@@ -417,20 +421,9 @@ h6{
 h7{
     font-family: 'Raleway-Medium';
     font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.188rem;
     color: #464646;
 }
 
-/*       mobile       */
-
-@media(max-width: 768px) {
-    #banner-titulo{
-        background: gold;
-    }
-
-    .caixa-contato{
-        display: flex;
-        flex-direction: column;
-    }
-}

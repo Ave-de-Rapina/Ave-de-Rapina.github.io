@@ -1,0 +1,247 @@
+@media (max-width: 28rem) {
+
+    header {
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: 4.5rem;
+        justify-content: space-between;
+    }
+
+    .banner {
+        background: url("../../img/img-mobile/banner-image.png");
+        background-position: center;
+        background-size: cover;
+        height: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: end;
+        padding: 1rem;
+    }
+    
+    @font-face {
+        font-family: 'Raleway-Bold';
+        src: url('font/Raleway-Bold.ttf') format('truetype');
+    }
+    
+    #banner-titulo{
+       margin-bottom: 0.5rem; 
+       font-family: 'Raleway-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+       color: #FFFFFF;
+    }
+    
+    #banner-subtitulo{
+        font-family: 'Raleway-Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        color: #FFFFFF;
+        margin-bottom: 0.5rem ;
+    }
+    
+    #banner-botao {
+        height: 2.5rem;
+        width: 7.438rem;
+        background: #2A7AE4;
+        border: none;
+        color: #FFFFFF;
+        font-family: 'Raleway-Medium';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        margin-bottom: 0;
+    }
+
+    main {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        background: #E5E5E5;
+    }
+
+    .caixa-cabecario-produtos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h3 {
+        font-family: 'Raleway-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        color: #464646;
+    }
+    
+    .caixa-ver-tudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .caixa-seta {
+        width: 0.667rem;
+        height: 0.667rem;
+        margin-left: 0.417rem;
+        background: url("../../img/seta-direita.png");
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ver-tudo {
+        border: none;
+        font-family: 'Raleway-Medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        color: #2A7AE4;
+        background: #E5E5E5
+    }
+
+    .caixa-produtos-stars-wars-margem {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        padding-bottom: 1rem;
+    }
+
+    img {
+        width: 9.5rem;
+        height: 10.875rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    p1 {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-family: 'Raleway-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        width: auto;
+        height: auto;
+        color: #464646;
+    }
+    
+    p2 {
+        width: auto;
+        height: auto;
+        display: block;
+        margin-bottom: 5px;
+        font-family: 'Raleway-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.188rem;
+        color: #464646;
+    }
+    
+    .ver-produtos {
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-family: 'Raleway-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.188rem;
+        color: #2A7AE4;
+        border: none;
+        padding-bottom: 1rem;
+        background: #E5E5E5;
+    }
+    
+    .caixa-contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 1.625rem ;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #EAF2FD;
+    }
+
+    .caixa-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 0;
+        margin-right: 0;
+        width: 10rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .saiba-mais {
+        text-align: center;
+        width: 100%;
+        border: none;
+        margin-bottom: 1rem;
+        padding-right: 1rem;
+        display: block;
+        font-family: 'Raleway-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.188rem;
+        color: #464646;
+    }
+    
+    .caixa-formulario {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .nome{
+        width: 100%;
+
+    }
+    
+    .insira-nome{
+        width: 100%;
+    }
+
+    .mensagem {
+        margin-top: 1rem;
+        width: 100%;
+    }
+  
+    .enviar-mensagem {
+        width: 9.438rem;
+        height: 2.5rem;
+        padding: 0.75rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        background: #2A7AE4;
+        color: #FFFFFF;
+        border: none;
+    }
+}
