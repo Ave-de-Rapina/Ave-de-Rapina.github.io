@@ -1,19 +1,30 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+  }
+
 .main-login {
     display: flex;
     justify-content: center;  
+    align-items: center;
     background: #E5E5E5;
-    height: 445px;
+    width: 100%;
+    padding-bottom: 91px;
 }
 
 .form-login {
-    position: absolute;
-    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #iniciar-sessao {
-    position: relative;
-    display: flex;
-    justify-content: center;
     font-family: 'Raleway-bold';
     font-style: normal;
     font-weight: 700;
@@ -21,14 +32,14 @@
     line-height: 21px;
     padding-bottom: 25px;
     color: #464646;
+
 }
 
 #email, #senha {
-    display: flex;
    margin-bottom: 25px;
     background: #FFFFFF;
     height: 63.13px;
-    width: 423px;
+    width: 100%;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -38,6 +49,7 @@
 }
 
 input::placeholder {
+
     font-family: 'Raleway-Light';
     font-weight: 200;
     font-size: 14px;
@@ -46,19 +58,55 @@ input::placeholder {
    }
 
 #Entrar {
-    display: block;
-    margin: 0 auto;
     background: #2A7AE4;
     color: #FFFFFF;    
     width: 423px;
     height: 62px;
-    left: 508px;
-    top: 435px;
     border: none;
-
     font-family: 'Raleway-Light';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 21px;
+}
+
+@media (max-width: 480px) {
+    .main-login {
+        padding-top: 97px;
+        padding-right: 40px;
+        padding-left: 45px;
+        padding-bottom: 76px;
+        margin: 0;
+    }
+
+    .form-login {
+        width: 100%;
+    }
+
+    #iniciar-sessao {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 0;
+        padding-bottom: 16px;
+    }
+
+    #email, #senha {
+        height: 41px;
+        margin-bottom: 16px;
+    }
+
+    input::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #Entrar {
+        width: 109px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
 }
