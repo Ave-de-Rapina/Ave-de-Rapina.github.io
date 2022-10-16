@@ -101,3 +101,64 @@ form input {
     line-height: 19px;
     color: #FFFFFF;
 }
+
+@media (max-width: 480px) {
+    .logo {
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+    .botao-login{
+        margin-right: 0;
+        margin-left: 0;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    menu {
+        padding:16px;
+    }
+
+    .caixa-formulario-produto {
+        width: 100%;
+    }
+
+    .titulo {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .caixa-formulario-produto{
+        width: 100%;
+    }
+
+    .caixa-formulario-produto label {
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    .descricao-produto {
+        width: 100%;
+    }
+
+    .descricao-produto {
+        width: 100%;
+    }
+
+    .descricao-produto::placeholder {
+    
+    }
+
+    .botao-adicionar {
+        width: 100%;
+    }
+}
