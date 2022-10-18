@@ -24,7 +24,7 @@ header {
 
 .logo {
     margin-left: 9.5rem;
-    margin-right: 2rem;
+    margin-right: 0;
     width: 11rem;
     height: 3.125rem;
 }
@@ -434,15 +434,59 @@ h7{
         align-items: center;
         padding: 0;
         margin: 0;
-        padding-left: 1.177rem; 
+        padding-left: 1rem;
+        padding-right: 1rem; 
         width: auto;
         height: 4.5rem;
         justify-content: space-between;
     }
+
     .search-container{
-        height: 0;
-        width: 0;
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+        order: 2;
+        margin: 0;
+        padding: 0;
+        height: 17px;
+        width: 17px;
     }
+
+    #search-bar{
+        display: none;
+    }
+
+    .search-icon{
+        height: 17px;
+        width: 17px;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .logo{
+        margin-left: 0;
+        margin-right: 0;
+        width: 120px;
+        height: 36px;
+        order: 0;
+    }
+
+    .botao-login{
+        order: 1;
+        margin-right: 0;
+        width: 120px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0;
+    }
+
 
     .banner {
         background: url("img/img-mobile/banner-image.png");
@@ -554,6 +598,10 @@ h7{
         padding-bottom: 1rem;
     }
 
+    .caixa-produtos-individual1{
+        display: none;
+    }
+
     img {
         width: 9.5rem;
         height: 10.875rem;
@@ -619,7 +667,7 @@ h7{
         width: 100%;
     
     }
-
+/*
     .logo {
         margin-left: 0;
         margin-right: 0;
@@ -627,7 +675,7 @@ h7{
         height: 3rem;
         margin-bottom: 1rem;
     }
-    
+  */  
     .saiba-mais {
         text-align: center;
         width: 100%;
