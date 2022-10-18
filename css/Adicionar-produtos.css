@@ -106,7 +106,7 @@ form input {
     .logo {
         margin-left: 0;
         margin-right: 0;
-        
+        order: 0;
     }
 
     .botao-login{
@@ -115,7 +115,11 @@ form input {
         font-weight: 600;
         font-size: 14px;
         line-height: 16px;
-
+        width: 166px;
+        order: 1;
+    }
+    .search-container{
+        order: 2;
     }
 
     menu {

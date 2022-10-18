@@ -465,7 +465,6 @@ h7{
         right: 0;
         margin: 0;
         padding: 0;
-
     }
 
     .logo{
@@ -487,7 +486,6 @@ h7{
         padding: 0;
     }
 
-
     .banner {
         background: url("img/img-mobile/banner-image.png");
         background-position: center;
@@ -507,7 +505,6 @@ h7{
     
     #banner-titulo{
        margin-bottom: 0.5rem; 
-
         font-style: normal;
         font-weight: 700;
         font-size: 1.375rem;
@@ -667,15 +664,7 @@ h7{
         width: 100%;
     
     }
-/*
-    .logo {
-        margin-left: 0;
-        margin-right: 0;
-        width: 10rem;
-        height: 3rem;
-        margin-bottom: 1rem;
-    }
-  */  
+    
     .saiba-mais {
         text-align: center;
         width: 100%;
