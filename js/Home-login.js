@@ -9,6 +9,5 @@ function logar(){
     }else{
         alert("Usuario ou senha incorretos.")
     }
-    
 }
 
