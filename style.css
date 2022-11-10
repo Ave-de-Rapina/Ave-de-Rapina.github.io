@@ -361,7 +361,14 @@ p2 {
     background: #FFFFFF;
     border-color: #C8C8C8;
     border-width: 0.063;
+    padding: 3%;
 }
+
+.mensagem:focus, .insira-nome:focus{ /*retirar a borda quando clica*/
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+} 
 
 textarea::placeholder {
     padding-top: 1rem;

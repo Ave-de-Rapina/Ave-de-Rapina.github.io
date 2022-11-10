@@ -1,7 +1,3 @@
-function botaoLogin(){
-    location.href = "./html/Home-login.html";
-}
-
 
 function enviarMensagem(){
     if((document.getElementById("nome").value == "") || (document.getElementById("msg").value == "")){
@@ -12,4 +8,3 @@ function enviarMensagem(){
             alert('Sua mensagem foi encaminhada com sucesso!');
         }
 }
-
